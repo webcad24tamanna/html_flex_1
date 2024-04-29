@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    font-family: "Noto Sans", sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section_1{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.section_1 .col_1{
+    width: 50%;
+    background-color: rgb(192, 80, 80);
+    padding: 40px;
+}
+.section_1 .col_1 h2{
+    font-size: 35px;
+    color: white;
+    
+}
+.section_1 .col_1 p{
+    font-size: 16px;
+    line-height: 24px;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    padding: 15px 35px 0 0px;
+}
+.practice1{
+    text-decoration: none;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    padding: 10px 30px;
+    display: inline-block;
+    margin: 35px 6px 0 0;
+    font-size: 15px;
+    font-weight: 600;
+}
+.practice2{
+    text-decoration: none;
+    background-color: #20704b;
+    color: white;
+    padding: 10px 30px;
+    display: inline-block;
+    margin: 35px 0 0 6px;
+}
+.section_1 .col_2{
+    width: 50%;
+}
+.section_1 .col_2 img{
+    width: 100%;
+    display: block;
+}
+.section_2{
+    width: 1200px;
+    margin: 0 auto;
+    background-color: rgb(240, 233, 233);
+    height: 660px;
+    
+}
+.text_sec2{
+    text-align: center;
+    padding: 60px;
+}
+.text_sec2 h2{
+    font-size: 22px;
+    font-weight: 600;
+    padding: 6px;
+}
+.text_sec2 p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.card_sec2{
+    display: flex;
+    margin: 0 20px;
+}
+.card_sec2_col_1{
+    flex-basis: 25%;
+    display: flex;
+    align-items: flex-end;
+    min-height: 400px;
+    color: white;
+    padding: 15px;
+    background-color: rgb(165, 164, 164);
+    background-image: url(./images/card1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 0 16px 0 rgba(31, 37, 128, 0.363);
+    background-blend-mode: multiply;
+    border-radius: 15px; 
+    margin: 10px;
+}
+.card_sec2_col_2{
+    flex-basis: 25%;
+    display: flex;
+    align-items: flex-end;
+    min-height: 400px;
+    color: white;
+    padding: 15px;
+    background-color: rgb(165, 164, 164);
+    background-image: url(./images/card2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 0 16px 0 rgba(31, 37, 128, 0.363);
+    background-blend-mode: multiply;
+    border-radius: 15px; 
+    margin: 10px;
+}
+.card_sec2_col_3{
+    flex-basis: 25%;
+    display: flex;
+    align-items: flex-end;
+    min-height: 400px;
+    color: white;
+    padding: 15px;
+    background-color: rgb(165, 164, 164);
+    background-image: url(./images/card3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 0 16px 0 rgba(31, 37, 128, 0.363);
+    background-blend-mode: multiply;
+    border-radius: 15px; 
+    margin: 10px;
+}
+.card_sec2_col_4{
+    flex-basis: 25%;
+    display: flex;
+    align-items: flex-end;
+    min-height: 400px;
+    color: white;
+    padding: 15px;
+    background-color: rgb(165, 164, 164);
+    background-image: url(./images/card4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 0 16px 0 rgba(31, 37, 128, 0.363);
+    background-blend-mode: multiply;
+    border-radius: 15px; 
+    margin: 10px;
+}
+.section_3{
+    width: 1200px;
+    margin: 0 auto;
+    background-color: rgb(242, 247, 242);
+    height: 740px;
+    
+}
+.text_sec3{
+    text-align: center;
+    padding: 60px;
+}
+.text_sec3 h2{
+    font-size: 22px;
+    font-weight: 600;
+    padding: 6px;
+}
+.text_sec3 p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.card_sec3{
+    display: flex;
+    width: 1200px;
+    height: 480px;
+    margin: 0 10px 40px;
+
+}
+.card_sec3_col_1{
+    flex-basis: 33.33%;
+    display: flex;
+    align-items: flex-end;
+    background-image: url(./images/card5.jpg);
+    background-color: rgb(228, 228, 220);
+    background-blend-mode: multiply;
+    box-shadow: 0 0 16px 0 rgb(162, 165, 170);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    min-height: 100%;
+    color: #ffffff;
+    padding: 15px;
+    margin: 10px 10px 10px 20px;
+}
+.card_sec3_col_2{
+    flex-basis: 66.66%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 25px 0 5px;
+}
+.card_sec3_col_top{
+    flex-basis: 100%;
+    margin-bottom: 15px;
+}
+.card_sec3_col_down1{
+    flex-basis: 50%;
+    margin-top: 5px;
+}
+.card_sec3_col_down2{
+    flex-basis: 50%;
+    margin-top: 5px;
+}
+
+.card_sec3_col_top p{
+    display: flex;
+    align-items: flex-end;
+    background-image: url(./images/card6.jpg);
+    background-color: rgb(228, 228, 220);
+    background-blend-mode: multiply;
+    box-shadow: 0 0 16px 0 rgb(162, 165, 170);
+    background-position:right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    min-height: 100%;
+    color: #ffffff;
+    padding: 15px;
+    margin: 10px;
+}
+.card_sec3_col_down1 p{
+    display: flex;
+    align-items: flex-end;
+    background-image: url(./images/card7.jpg);
+    background-color: rgb(228, 228, 220);
+    background-blend-mode: multiply;
+    box-shadow: 0 0 16px 0 rgb(162, 165, 170);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    min-height: 100%;
+    color: #ffffff;
+    padding: 15px;
+    margin: 10px;  
+}
+.card_sec3_col_down2 p{
+    display: flex;
+    align-items: flex-end;
+    background-image: url(./images/card8.jpg);
+    background-color: rgb(228, 228, 220);
+    background-blend-mode: multiply;
+    box-shadow: 0 0 16px 0 rgb(162, 165, 170);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    min-height: 100%;
+    color: #ffffff;
+    padding: 15px;
+    margin: 10px;  
+}
+.section_4{
+    width: 1200px;
+    margin: 0 auto;
+    background-color: rgb(240, 233, 233);
+    height: 600px;
+    
+}
+.text_sec4{
+    text-align: center;
+    padding: 60px;
+}
+.text_sec4 h2{
+    font-size: 22px;
+    font-weight: 600;
+    padding: 6px;
+}
+.text_sec4 p{
+    font-size: 16px;
+    font-weight: 400;
+}
